@@ -1,0 +1,126 @@
+#background{
+    background-image: url('orange site.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0;
+    padding: 0;
+}
+#head{
+    background-color: black;
+    padding: 0 20px ;
+}
+.left-icon{ 
+    float: left;
+    position: relative;
+    background-color: #ff7900;
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.left-icon::before{
+    background-color: white;
+    position: absolute;
+    content: '';
+    width: 28px;
+    height: 5.5px;
+    top:29px;
+    left: 6px;
+}
+
+.topic >p{
+    color:white;
+    text-transform: capitalize;
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: -2px;
+    word-spacing: -3px;
+    margin-left: 20px;
+}
+@media(max-width:768px){
+    .topic >p{
+        float: left;
+        clear: both;
+        margin-top: 0;
+    }
+}
+
+#main{
+    margin-top: 50px;
+    background-color:transparent;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 20px 5px 10px;
+    z-index: 2;
+}
+.main{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color:white;
+    opacity: 0.7;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 20px 10px 10px;
+    z-index: -1;
+}
+#main .sign{
+    color: #ff6600;
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+label{
+    font-size: 20px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    line-height: 1;
+}
+#user{
+    width: 100%;
+    height: 45px;
+    margin-bottom: 20px;
+    border: none;
+    border-top: .4px solid black;
+    border-radius: 4px;
+}
+#button{
+    background-color: black;
+    color:white;
+    text-align: center;
+    font-size:18px;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.about{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: bold;
+}
+.foot{
+    font-size: 11.5px;
+    line-height: 1.2;
+    color:white;
+    background-color: black;
+    margin: 0;
+    padding: 30px 12px;
+    margin-top: 40px;
+}
+.material-icons{
+    position:absolute;
+    opacity: 0.3;
+}
+#first{
+    top:115px;
+    left:20px;
+}
+#second{
+    top:205px;
+    left:20px;
+}
